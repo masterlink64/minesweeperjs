@@ -11,6 +11,15 @@ td {
  
 }
 
+.flagged {
+  background-color: lightgreen;
+  color: red;
+}
+
+.flagged:after {
+  content: 'F'
+}
+
 .n0 { color:  lightgray; }
 .n1 { color: grey; }
 .n2 { color:  lightgreen; }
